@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Só de zoas</title>
+    <style>
+        * {
+            margin: 0px;
+        }
+
+        div#block_principal {
+            background-color: grey;
+            width: 500px;
+            height: 500px;
+            margin: 50px auto;
+        }
+        
+        div#block_principal > div {
+            text-align: center;
+        }
+
+        .digits{
+            width: 50px;
+            height: 50px;
+            display: inline-block;
+            background-color: lightblue;
+            margin: 50px 40px;
+        }
+
+        div.digits > p {
+            margin: 15px 0px 0px 0px;
+        }
+
+        div.digits:hover {
+            background-color: rgb(185, 238, 255);
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div id="block_principal">
+        <div class="digits"><p>1</p></div>
+        <div class="digits"><p>2</p></div>
+        <div class="digits"><p>3</p></div>
+        <div class="digits"><p>5</p></div>
+        <div class="digits"><p>6</p></div>
+        <div class="digits"><p>7</p></div>
+    </div>
+</body>
+</html>
